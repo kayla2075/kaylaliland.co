@@ -1,204 +1,282 @@
-/*
-	========================================
-	JESSICA ONE PAGE RESUME THEME
-	========================================
-
-	@author			: @avriqq
-	@version		: v1.1
-	@date-create	: 04/09/2014
-	@last-update	: 13/09/2014
-	@file-name		: responsive
-
-*/
-
-@media screen and (min-width: 1200px){
+@media (min-width: 992px) and (max-width: 1024px) {
+     .navbar-right {
+        float: none !important;
+        margin: auto;
+        margin-left: 130px;
+    }
+    
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px){
-	/* work */
-	.work-item > .item-link > img{
-		opacity: 0.8;
-		filter: alpha(opacity=80);
-		-webkit-transform: translate3d(-30px,0,0) scale(1.32);
-		   -moz-transform: translate3d(-30px,0,0) scale(1.32);
-			-ms-transform: translate3d(-30px,0,0) scale(1.32);
-			 -o-transform: translate3d(-30px,0,0) scale(1.32);
-				transform: translate3d(-30px,0,0) scale(1.32);
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    /* TOP BAR ELEMENTS */    
+	.responsive-logo {
+		width: 100%;
+		position: relative;
+		text-align: center;
+		margin-top: 10px;
+		padding-top: 5px;
 	}
-	/* footer */
-	.footer .footer-widget-logo{
+   
+	.responsive-logo a {
+		float: none !important;
+	}
+
+	.responsive-nav {
+		text-align: center;
+		width: 100%;
+		padding-top: 0;
+	}
+
+	.responsive-nav li {
+		margin-bottom: 15px;
+		margin-top: 0 !important;
+	}
+
+	.navbar-brand {
+		width: 100%;
+	}
+
+	.navbar-brand img {
+		margin: auto;
+	}
+     
+     
+     /* HOME */
+	.intro {
+		margin-top: 31%;
+		line-height: 3.438rem !important;
+		font-size: 2.813rem;
+	}
+      
+      /* ABOUT US */
+	.big-intro {
+		text-align: center !important;
+	}
+
+	.about-us .column {
+		margin-bottom: 40px;
+	}
+
+	.skills {
+		margin-bottom: 78px !important;
+	}
+      
+      /* TEAM */
+	.team-member .profile-pic {
+		width: 128px;
+		height: 128px;
+	}
+
+	.team-member .details {
+		display: none;
+	}
+      /* PURCHASE NOW */
+	.purchase-now {
+		margin: auto;
+		text-align: center !important;
+	}
+
+	.purchase-now h3 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.purchase-now .red-btn {
+		float: none;
+	}
+      
+      /* FOOTER */
+	footer {
+		padding-top: 40px;
+	}
+
+	.company-details {
+		padding-top: 0;
+		padding-bottom: 33px;
+	}
+
+	.copyright {
+		width: 100%;
+		padding-top: 33px;
+		padding-bottom: 33px;
+	}
+}
+@media (max-width: 1024px) {
+    .features {
+        text-align: center;
+    }
+    
+    .features .feature-icon {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+ 
+	
+
+    html {
+        font-size: 90%;
+    }
+    
+    .bs-navbar-collapse {
+		border: 0;
+	}
+
+	.navbar-inverse .navbar-nav {
+		padding-left: 10px;
+		line-height: normal;
 		text-align: center;
 	}
 
-	.footer .footer-box .footer-icon{
-		position: absolute;
-		left: 10px;
-		top: -30px;
+	.navbar-inverse .navbar-nav>li {
+		display: inline-block;
+		margin-bottom: 0;
+	}
+    /* HOME */
+	.header {
+		min-height: inherit;
+		padding-bottom: 75px;
+	}
+
+	.intro {
+	    margin-top: 30%;
+		line-height: 3.438rem !important;
+		font-size: 2.813rem;
+	}
+      
+      /* ABOUT US */
+	.big-intro {
+		text-align: center !important;
+		font-size: 8vw !important;
+	}
+
+	.about-us .column {
+		margin-bottom: 40px;
+	}
+
+	.skills {
+		margin-bottom: 78px !important;
+	}
+      
+      /* PURCHASE NOW */
+	.purchase-now {
+		margin: auto;
+		text-align: center !important;
+	}
+
+	.purchase-now h3 {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.purchase-now .red-btn {
+		float: none;
+	}
+      
+      /* FOOTER */
+	footer {
+		padding-top: 40px;
+	}
+
+	.company-details {
+		padding-top: 0;
+		padding-bottom: 33px;
+	}
+
+	.copyright {
+		width: 100%;
+		padding-top: 33px;
+		padding-bottom: 33px;
 	}
 }
 
-@media (min-width: 768px){
-	/* navbar */
-	.navbar-default{
-		padding: 40px 0 30px;
-		background-color: transparent;
-		border-color: transparent;
-		-webkit-transition: all 0.3s ease-in-out;
-		   -moz-transition: all 0.3s ease-in-out;
-			-ms-transition: all 0.3s ease-in-out;
-			 -o-transition: all 0.3s ease-in-out;
-				transition: all 0.3s ease-in-out;
-	}
+@media (max-width: 480px) {
+ 
 
-	.navbar-default .navbar-brand{
-		font-size: 42px;
-		color: #fff;
+/* HOME */
+	html {
+        font-size: 70%;
+    }
+	.responsive-logo img {
+        width: 70%;
+    }
+    
+    #main-nav {
+        min-height: 50px;
+    }
+	
+	.intro {
+		margin-top: 40%;
+		line-height: 3.438rem !important;
+		font-size: 2.813rem;
 	}
+    
+    .focus,.works,.about-us,.features, .our-team,.packages,.products .color-overlay,.testimonial,.contact-us {
+	padding-top: 60px;
 }
-
-@media screen and (max-width: 767px){
-	/* navbar */
-	.navbar-default,
-	.navbar-default.navbar-scroll{
-		border: none;
-		background-color: #fff;
+    .buttons {
+	    margin-bottom: 0;
+	    margin-top: 30px;
 	}
-
-	.navbar-default.navbar-scroll{
-		padding: 0;
-	}
-
-	.navbar-default .navbar-brand,
-	.navbar-default.navbar-scroll .navbar-brand{
-		font-size: 20px;
-		color: #fff;
-		padding-bottom: 50px;
-	}
-
-	.navbar-default .navbar-collapse{
-		padding-top: 20px;
-	}
-
-	.navbar-default .navbar-nav > li > a{
-		color: #434a54;
-	}
-
-	.navbar-default .navbar-nav > li > a:hover,
-	.navbar-default .navbar-nav > li > a:focus,
-	.navbar-default .navbar-nav > .active > a,
-	.navbar-default .navbar-nav > .active > a:hover{
-		position: relative;
-		color: #ef4034;
-	}
-
-	.navbar-default .navbar-nav > li > a:hover::after,
-	.navbar-default .navbar-nav > li > a:focus::after,
-	.navbar-default .navbar-nav > .active > a::after,
-	.navbar-default .navbar-nav > .active > a:hover::after{
-		content: '';
-		display: none;
-	}
-
-	.dropdown-menu > li > a{
-		font-weight: 600;
-	}
-
-	/* header */
-	#header{
-		min-height: 150px;
-		height: auto;
-		padding-top: 100px;
-	}
-
-	/* page */
-	#about{
-		display: block;
-		width: 100%;
-		height: auto;
-		min-height: 150px;
-		padding: 90px 0 40px;
-		background-image: none;
-		background-color: #fff;
-	}
-
-	#skill{
-		padding: 10px 0;
-	}
-
-	#service,
-	#work,
-	#blog,
-	#contact{
-		width: 100%;
-		height: auto;
-		min-height: 150px;
-		display: block;
-		padding: 90px 0 80px;
+     
+    .custom-button {
+        padding: 10px 18px;
+    }
+     h1 {
+        font-weight: normal;
+    }
+    
+	h2 {
+		font-size: 6.5vw !important;
 	}
 	
-	/* work */
-	.work-item{
-		float: left;
-		width: 50%;
-	}
+	 h3 {
+        font-size: 1.7rem;
+    }
 
-	.work-item > .item-link > img{
-		opacity: 0.8;
-		filter: alpha(opacity=80);
-		-webkit-transform: translate3d(-30px,0,0) scale(1.32);
-		   -moz-transform: translate3d(-30px,0,0) scale(1.32);
-			-ms-transform: translate3d(-30px,0,0) scale(1.32);
-			 -o-transform: translate3d(-30px,0,0) scale(1.32);
-				transform: translate3d(-30px,0,0) scale(1.32);
-	}
-
-	.work-item > .item-link > .item-desc p{
-		display: none;
-	}
-
-	/* modal */
-	.modal-work .modal-close{
-		position: absolute;
-		top: 25px;
-		right: 25px;
-		width: 60px;
-		height: 60px;
-	}
-
-	.modal-work .modal-close::before{
-		content: '';
-		position: absolute;
-		left: 30px;
-		top: -10px;
-		width: 1px;
-		height: 80px;
-	}
-
-	.modal-work .modal-close::after{
-		content: '';
-		position: absolute;
-		right: 30px;
-		top: -10px;
-		width: 1px;
-		height: 80px;
+	.other-focus-list ul li {
+		display: block;
+		text-align: left;
+		margin-right: 0;
 	}
 }
 
-@media screen and (max-width: 480px){
-	/* navbar */
-	.navbar-default .navbar-brand{
-		font-size: 19px;
-		line-height: 21px;
+@media (max-width: 320px) {
+    
+    html {
+        font-size: 62.5%;
+    }
+    
+    
+    body {
+        font-size: 1.3rem;
+    }
+    
+    .focus,.works,.about-us,.features, .our-team,.packages,.products .color-overlay,.testimonial,.contact-us {
+	padding-top: 50px;
+}
+    
+    h1 {
+        font-weight: normal;
+    }
+    
+    h3 {
+        font-size: 1.7rem;
+    }
+    
+    .intro {
+        margin-top: 50%;
+		line-height: 3.1rem !important;
+		font-size: 2.1rem;
 	}
 
-	/* work */
-	.work-item{
-		float: left;
-		width: 100%;
+	.client-list ul li {
+		display: block;
 	}
-
-	.work-item > .item-link > .item-desc h3{
-		margin-top: 60px;
-	}
-	
 }
